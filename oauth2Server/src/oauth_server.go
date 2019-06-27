@@ -30,6 +30,6 @@ func main() {
 	if config.OnIsDev() {
 		CallBack()
 	} else {
-		server.OnStart(CallBack)
+		server.On(config.GetServiceConfig()).Start(CallBack)
 	}
 }

@@ -12,8 +12,6 @@ import (
 
 type Config struct {
 	Serial_number       string `json:"serial_number,omitempty"`       //对应JSON的serial_number,如果为空置则忽略字段
-	Log_dir             string `json:"log_dir,omitempty"`             //对应JSON的 log_dir,如果为空置则忽略字段
-	Log_v               string `json:"log_v,omitempty"`               //对应JSON的 log_v,如果为空置则忽略字段
 	Log_maxSize         uint64 `json:"log_maxSize,omitempty"`         //对应JSON的 log_maxSize,如果为空置则忽略字段
 	Service_name        string `json:"service_name,omitempty"`        //对应JSON的 service_name,如果为空置则忽略字段
 	Service_displayname string `json:"service_displayname,omitempty"` //对应JSON的 service_displayname,如果为空置则忽略字段
