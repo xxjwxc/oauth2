@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\data\doaction\doaction.cpp">
+      <Filter>src\data\doaction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\verify\verify.cpp">
+      <Filter>src\data\verify</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\login\login.cpp">
+      <Filter>src\data\login</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\init\MyIni.cpp">
+      <Filter>src\data\init</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bf56f768-b22a-4ac1-b1ea-4d4b75f8a15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{017cd063-0dbc-4269-83e0-98b3f69bfcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\verify">
+      <UniqueIdentifier>{5ce387a0-e548-4b4a-9ce0-24d7e61af01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\example">
+      <UniqueIdentifier>{1153387a-d304-46bf-9c34-fa22ee08d45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\doaction">
+      <UniqueIdentifier>{d4b8ca85-190d-4ae9-b2b6-b0393f2b3406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\login">
+      <UniqueIdentifier>{d81e57a8-2a44-4382-8074-1559ef5b33a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\init">
+      <UniqueIdentifier>{9deee261-28f3-41e2-94a5-2de66aa666c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\data\doaction\doaction.h">
+      <Filter>src\data\doaction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\verify\verify.h">
+      <Filter>src\data\verify</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\login\login.h">
+      <Filter>src\data\login</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\init\MyIni.h">
+      <Filter>src\data\init</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

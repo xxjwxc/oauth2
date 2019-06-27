@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4a341e40-cfaa-42f8-90df-7b082c610231}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Public_linux</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <RemoteRootDir>~/projects/Public_linux/src/Tools</RemoteRootDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <RemoteRootDir>~/projects/Public_linux/src/Tools</RemoteRootDir>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\obj\$(Platform)\$(Configuration)\</IntDir>
+    <RemoteProjectDir>$(RemoteRootDir)</RemoteProjectDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\obj\$(Platform)\$(Configuration)\\</IntDir>
+    <RemoteProjectDir>$(RemoteRootDir)/</RemoteProjectDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Tools\Asio\ClientSession.cpp" />
+    <ClCompile Include="src\Tools\Asio\IAsioTools.cpp" />
+    <ClCompile Include="src\Tools\Asio\ServerConnection.cpp" />
+    <ClCompile Include="src\Tools\Gumbo\MyGumbo.cpp" />
+    <ClCompile Include="src\Tools\Gumbo\src\attribute.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\char_ref.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\error.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\parser.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\string_buffer.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\string_piece.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\tag.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\tokenizer.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\utf8.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\util.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\vector.c" />
+    <ClCompile Include="src\Tools\IP\IP17MON.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_reader.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_value.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_writer.cpp" />
+    <ClCompile Include="src\Tools\Libcurl\MyHttpTools.cpp" />
+    <ClCompile Include="src\Tools\Md5\MyMd5.cpp" />
+    <ClCompile Include="src\Tools\MyIni\MyIniBase.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlBase.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlConnection.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlPool.cpp" />
+    <ClCompile Include="src\Tools\MyStream\MyStreamBase.cpp" />
+    <ClCompile Include="src\Tools\MyTimes.cpp" />
+    <ClCompile Include="src\Tools\MyTools.cpp" />
+    <ClCompile Include="src\Tools\OnLogDeal.cpp" />
+    <ClCompile Include="src\Tools\Ping\ping.cpp" />
+    <ClCompile Include="src\Tools\Rand\MyRand.cpp" />
+    <ClCompile Include="src\Tools\Sqlite3\MySqlite3.cpp" />
+    <ClCompile Include="src\Tools\Sqlite3\SqliteBase.cpp" />
+    <ClCompile Include="src\Tools\Sqlite3\src\sqlite3.c" />
+    <ClCompile Include="src\Tools\TimerDeal\TimeOut.cpp" />
+    <ClCompile Include="src\Tools\TimerDeal\TimerDeal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Tools\Asio\ClientSession.h" />
+    <ClInclude Include="src\Tools\Asio\DefineBase.h" />
+    <ClInclude Include="src\Tools\Asio\GameDefine.h" />
+    <ClInclude Include="src\Tools\Asio\IAsioTools.h" />
+    <ClInclude Include="src\Tools\Asio\IModelBase.h" />
+    <ClInclude Include="src\Tools\Asio\ISocketBase.h" />
+    <ClInclude Include="src\Tools\Asio\ServerConnection.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\access.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\adapters.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\binary.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\json.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\portable_binary.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\xml.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\cereal.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\helpers.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\polymorphic_impl.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\polymorphic_impl_fwd.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\static_object.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\traits.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\util.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\base64.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\allocators.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\document.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\encodedstream.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\encodings.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\error\en.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\error\error.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\filereadstream.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\filewritestream.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\fwd.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\itoa.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\meta.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\pow10.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\regex.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\stack.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\strtod.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\swap.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\memorybuffer.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\memorystream.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\pointer.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\prettywriter.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\rapidjson.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\reader.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\schema.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\stream.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\stringbuffer.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\writer.h" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\macros.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\array.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\base_class.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\bitset.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\boost_variant.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\chrono.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\common.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\complex.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\concepts\pair_associative_container.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\deque.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\forward_list.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\functional.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\list.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\map.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\memory.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\polymorphic.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\queue.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\set.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\stack.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\string.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\tuple.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\unordered_map.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\unordered_set.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\utility.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\valarray.hpp" />
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\vector.hpp" />
+    <ClInclude Include="src\Tools\Cereal\MyCereal.h" />
+    <ClInclude Include="src\Tools\ConsoleHandler.h" />
+    <ClInclude Include="src\Tools\DefineBase.h" />
+    <ClInclude Include="src\Tools\Gumbo\MyGumbo.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\attribute.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\char_ref.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\error.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\gumbo.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\insertion_mode.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\parser.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\strings.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\string_buffer.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\string_piece.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_enum.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_gperf.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_sizes.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_strings.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer_states.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\token_type.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\utf8.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\util.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\vector.h" />
+    <ClInclude Include="src\Tools\IP\IP17MON.h" />
+    <ClInclude Include="src\Tools\Json\include\autolink.h" />
+    <ClInclude Include="src\Tools\Json\include\config.h" />
+    <ClInclude Include="src\Tools\Json\include\features.h" />
+    <ClInclude Include="src\Tools\Json\include\forwards.h" />
+    <ClInclude Include="src\Tools\Json\include\json.h" />
+    <ClInclude Include="src\Tools\Json\include\reader.h" />
+    <ClInclude Include="src\Tools\Json\include\value.h" />
+    <ClInclude Include="src\Tools\Json\include\writer.h" />
+    <ClInclude Include="src\Tools\Json\MyJson.h" />
+    <ClInclude Include="src\Tools\Json\src\json_batchallocator.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\curl.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\curlbuild.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\curlrules.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\curlver.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\easy.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\mprintf.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\multi.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\stdcheaders.h" />
+    <ClInclude Include="src\Tools\Libcurl\curl\typecheck-gcc.h" />
+    <ClInclude Include="src\Tools\Libcurl\MyHttpTools.h" />
+    <ClInclude Include="src\Tools\Md5\MyMd5.h" />
+    <ClInclude Include="src\Tools\MyIni\MyIniBase.h" />
+    <ClInclude Include="src\Tools\MySingleton.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlBase.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlConnection.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlPool.h" />
+    <ClInclude Include="src\Tools\MySql\SQLDefine.h" />
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.h" />
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.hpp" />
+    <ClInclude Include="src\Tools\MyTimes.h" />
+    <ClInclude Include="src\Tools\MyTools.h" />
+    <ClInclude Include="src\Tools\OnLogDeal.h" />
+    <ClInclude Include="src\Tools\Ping\ping.h" />
+    <ClInclude Include="src\Tools\PointBase.h" />
+    <ClInclude Include="src\Tools\Queue\MyQueue.h" />
+    <ClInclude Include="src\Tools\Queue\MyQueue.hpp" />
+    <ClInclude Include="src\Tools\Rand\MyRand.h" />
+    <ClInclude Include="src\Tools\SingnalTrivial\SignalSlotTrivial.h" />
+    <ClInclude Include="src\Tools\Sqlite3\MySqlite3.h" />
+    <ClInclude Include="src\Tools\Sqlite3\SqliteBase.h" />
+    <ClInclude Include="src\Tools\Sqlite3\src\sqlite3.h" />
+    <ClInclude Include="src\Tools\TimerDeal\TimeOut.h" />
+    <ClInclude Include="src\Tools\TimerDeal\TimerDeal.h" />
+    <ClInclude Include="src\Tools\win_exit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Tools\Cereal\include\cereal\external\rapidxml\manual.html" />
+    <None Include="src\Tools\Gumbo\src\char_ref.rl" />
+    <None Include="src\Tools\Gumbo\src\tag.in" />
+    <None Include="src\Tools\Json\src\json_internalarray.inl" />
+    <None Include="src\Tools\Json\src\json_internalmap.inl" />
+    <None Include="src\Tools\Json\src\json_valueiterator.inl" />
+    <None Include="src\Tools\Json\src\sconscript" />
+    <None Include="src\Tools\Libcurl\curl\curlbuild.h.cmake" />
+    <None Include="src\Tools\Libcurl\curl\curlbuild.h.in" />
+    <None Include="src\Tools\Libcurl\curl\lib.rar" />
+    <None Include="src\Tools\Libcurl\curl\Makefile.am" />
+    <None Include="src\Tools\Libcurl\curl\Makefile.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\Tools\Cereal\include\cereal\external\rapidxml\license.txt" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

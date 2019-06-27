@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{13e6dde6-24d1-47cf-82df-dd075b757080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{2f4aa435-325a-48c5-88ea-7066db7061f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\doaction">
+      <UniqueIdentifier>{796291f7-e6ac-441b-8234-85bb58b48616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\example">
+      <UniqueIdentifier>{3d6ca922-995e-4d5e-9418-741f0a218894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\verify">
+      <UniqueIdentifier>{504aacac-2cf4-491a-98e0-bef1d20ebabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\init">
+      <UniqueIdentifier>{db74947c-4f69-4475-812d-0995535fe30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\login">
+      <UniqueIdentifier>{d4407156-eb89-4934-9eaf-e2a651300268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\oauth2client_linux\src\data\verify\verify.cpp">
+      <Filter>src\data\verify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oauth2client_linux\src\data\init\MyIni.cpp">
+      <Filter>src\data\init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oauth2client_linux\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oauth2client_linux\src\data\doaction\doaction.cpp">
+      <Filter>src\data\doaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oauth2client_linux\src\data\login\login.cpp">
+      <Filter>src\data\login</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\oauth2client_linux\src\data\verify\verify.h">
+      <Filter>src\data\verify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oauth2client_linux\src\data\init\MyIni.h">
+      <Filter>src\data\init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oauth2client_linux\src\data\doaction\doaction.h">
+      <Filter>src\data\doaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oauth2client_linux\src\data\login\login.h">
+      <Filter>src\data\login</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

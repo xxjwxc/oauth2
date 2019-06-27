@@ -1,0 +1,11 @@
+{
+"verify_url":"http://192.168.0.152:7021/oauth2/api/v1/get_verify", //获取验证码url
+"check_user_url":"http://192.168.0.152:7021/oauth2/api/v1/check_user",//检查用户是否存在
+"doaction_url":"http://192.168.0.152:7021/oauth2/api/v1/doaction",//注册修改密码
+"login_url":"http://192.168.0.152:7001/api/v1/authorize",//登录
+"check_token_url":"http://192.168.0.152:7001/api/v1/check_token",//验证token
+"refresh_token_url":"http://192.168.0.152:7001/api/v1/refresh_token",//刷新token
+"token_type":"nomal",//授权类型
+"app_id":"wwwthings",
+"app_secret":"4EE0A9A43B9B911C067BEE5CC50A9972"//授权码
+}

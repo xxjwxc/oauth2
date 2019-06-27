@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Tools\IP\IP17MON.cpp">
+      <Filter>src\Tools\IP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\ClientSession.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\IAsioTools.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\ServerConnection.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyTimes.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyTools.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\OnLogDeal.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\MyGumbo.cpp">
+      <Filter>src\Tools\Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\attribute.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\char_ref.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\error.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\parser.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\string_buffer.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\string_piece.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\tag.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\tokenizer.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\utf8.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\util.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\vector.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_reader.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_value.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_writer.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Md5\MyMd5.cpp">
+      <Filter>src\Tools\Md5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyIni\MyIniBase.cpp">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlBase.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlConnection.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlPool.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyStream\MyStreamBase.cpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Rand\MyRand.cpp">
+      <Filter>src\Tools\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\TimerDeal\TimeOut.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\TimerDeal\TimerDeal.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Libcurl\MyHttpTools.cpp">
+      <Filter>src\Tools\Libcurl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Sqlite3\MySqlite3.cpp">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Sqlite3\SqliteBase.cpp">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Sqlite3\src\sqlite3.c">
+      <Filter>src\Tools\Sqlite3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Ping\ping.cpp">
+      <Filter>src\Tools\Ping</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5a84dacf-74e2-4085-aec8-bb26453ed420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools">
+      <UniqueIdentifier>{887cecbd-8b11-45a4-9c63-ac8bb7a2abe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\IP">
+      <UniqueIdentifier>{657b3bc1-6143-4ee7-bf35-17a2f83a5aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Asio">
+      <UniqueIdentifier>{6f9b47f6-2136-406d-a564-1e9cf9f053a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Gumbo">
+      <UniqueIdentifier>{073282d6-c198-4a47-b4ec-7b70d6555a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Gumbo\src">
+      <UniqueIdentifier>{81ba03d2-4a8a-4261-ab8e-6b42ca592528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json">
+      <UniqueIdentifier>{c6175114-b889-4d90-9b66-d1691a6fe155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\include">
+      <UniqueIdentifier>{94c8864d-0d52-4d42-a5a5-040027196a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\src">
+      <UniqueIdentifier>{baa3fd6a-8973-44cf-8c80-3b3678d3347c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Md5">
+      <UniqueIdentifier>{8b61b155-9a9e-4aa0-bdd0-8a2bf47b5b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyIni">
+      <UniqueIdentifier>{cf064a17-be01-4c2d-b1c5-adac7dc0c209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MySql">
+      <UniqueIdentifier>{7cde8a6b-896e-43b3-be18-96b4d1f3acfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyStream">
+      <UniqueIdentifier>{50c5438f-87c1-4f80-b4e8-cd37b9f1a574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Queue">
+      <UniqueIdentifier>{98eec9ea-1855-4f7d-b854-c3687854ddb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Rand">
+      <UniqueIdentifier>{4d3e865b-d700-4820-abc4-aaa4ba609323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\SingnalTrivial">
+      <UniqueIdentifier>{2f186583-88b7-467c-91c1-79a3f8c20484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\TimerDeal">
+      <UniqueIdentifier>{70294b5b-281f-41e5-86bf-c4de56580b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl">
+      <UniqueIdentifier>{7ddc6220-c75e-4e44-880b-8da60ffb2a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl\curl">
+      <UniqueIdentifier>{aa7f9a29-b6a9-496e-9d68-b0f941b56b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Sqlite3">
+      <UniqueIdentifier>{65e8d1f5-827f-4169-ae42-7646e00765d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Sqlite3\src">
+      <UniqueIdentifier>{2c55820f-30ab-4cc1-bd94-e4a3371cf000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Ping">
+      <UniqueIdentifier>{dc8eb1d2-0b69-4c4f-9bf9-45f09dc75f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal">
+      <UniqueIdentifier>{b5ee587e-55bb-476c-8a73-e1838a13470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include">
+      <UniqueIdentifier>{caf67e41-9528-4c7f-b861-da02de434089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal">
+      <UniqueIdentifier>{360be304-ad24-48e6-9d94-75ae789f9e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\archives">
+      <UniqueIdentifier>{47c9b2b2-c4fe-43eb-87bb-bca6d8f7f6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\details">
+      <UniqueIdentifier>{84c4ce16-a5ce-417e-8654-464b2f7f030e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external">
+      <UniqueIdentifier>{da606240-b249-4cf8-aec7-2776d05d4ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external\rapidjson">
+      <UniqueIdentifier>{413346b8-cdf8-4313-ba24-29991b885411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external\rapidjson\error">
+      <UniqueIdentifier>{3400b770-7136-4c69-9b31-a61627049b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal">
+      <UniqueIdentifier>{f3a6e4dc-8a8c-45ca-948f-06a2d17cc584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes">
+      <UniqueIdentifier>{e86ecdc8-42e0-49a6-aadf-c65741b34c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\external\rapidxml">
+      <UniqueIdentifier>{bd1277f4-84a9-4432-a986-724abb75980b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\types">
+      <UniqueIdentifier>{8752b4ef-4499-4b71-a54f-64b6ea83779c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Cereal\include\cereal\types\concepts">
+      <UniqueIdentifier>{2028d1be-ee80-4dd6-8dcf-43ce34583fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Tools\IP\IP17MON.h">
+      <Filter>src\Tools\IP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ClientSession.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\DefineBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\GameDefine.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\IAsioTools.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\IModelBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ISocketBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ServerConnection.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\ConsoleHandler.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\DefineBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySingleton.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyTimes.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyTools.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\OnLogDeal.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\PointBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\win_exit.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\MyGumbo.h">
+      <Filter>src\Tools\Gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\attribute.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\char_ref.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\error.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\gumbo.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\insertion_mode.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\parser.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\string_buffer.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\string_piece.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\strings.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_enum.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_gperf.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_sizes.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_strings.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\token_type.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer_states.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\utf8.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\util.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\vector.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\MyJson.h">
+      <Filter>src\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\src\json_batchallocator.h">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\autolink.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\config.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\features.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\forwards.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\json.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\reader.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\value.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\writer.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Md5\MyMd5.h">
+      <Filter>src\Tools\Md5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyIni\MyIniBase.h">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlBase.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlConnection.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlPool.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\SQLDefine.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.h">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.hpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Queue\MyQueue.h">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Queue\MyQueue.hpp">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Rand\MyRand.h">
+      <Filter>src\Tools\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\SingnalTrivial\SignalSlotTrivial.h">
+      <Filter>src\Tools\SingnalTrivial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\TimerDeal\TimeOut.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\TimerDeal\TimerDeal.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\MyHttpTools.h">
+      <Filter>src\Tools\Libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\curl.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\curlbuild.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\curlrules.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\curlver.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\easy.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\mprintf.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\multi.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\stdcheaders.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Libcurl\curl\typecheck-gcc.h">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Sqlite3\MySqlite3.h">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Sqlite3\SqliteBase.h">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Sqlite3\src\sqlite3.h">
+      <Filter>src\Tools\Sqlite3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Ping\ping.h">
+      <Filter>src\Tools\Ping</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\MyCereal.h">
+      <Filter>src\Tools\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\access.hpp">
+      <Filter>src\Tools\Cereal\include\cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\cereal.hpp">
+      <Filter>src\Tools\Cereal\include\cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\macros.hpp">
+      <Filter>src\Tools\Cereal\include\cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\adapters.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\binary.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\json.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\portable_binary.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\archives\xml.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\helpers.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\polymorphic_impl.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\polymorphic_impl_fwd.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\static_object.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\traits.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\details\util.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\base64.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\allocators.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\document.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\encodedstream.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\encodings.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\filereadstream.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\filewritestream.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\fwd.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\istreamwrapper.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\memorybuffer.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\memorystream.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\ostreamwrapper.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\pointer.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\prettywriter.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\rapidjson.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\reader.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\schema.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\stream.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\stringbuffer.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\writer.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\error\en.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\error\error.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\biginteger.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\diyfp.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\dtoa.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\ieee754.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\itoa.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\meta.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\pow10.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\regex.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\stack.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\strfunc.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\strtod.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\internal\swap.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes\inttypes.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes\stdint.h">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_iterators.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_print.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\external\rapidxml\rapidxml_utils.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\array.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\base_class.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\bitset.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\boost_variant.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\chrono.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\common.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\complex.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\deque.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\forward_list.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\functional.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\list.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\map.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\memory.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\polymorphic.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\queue.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\set.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\stack.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\string.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\tuple.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\unordered_map.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\unordered_set.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\utility.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\valarray.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\vector.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Cereal\include\cereal\types\concepts\pair_associative_container.hpp">
+      <Filter>src\Tools\Cereal\include\cereal\types\concepts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Tools\Gumbo\src\char_ref.rl">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </None>
+    <None Include="src\Tools\Gumbo\src\tag.in">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </None>
+    <None Include="src\Tools\Json\src\json_internalarray.inl">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="src\Tools\Json\src\json_internalmap.inl">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="src\Tools\Json\src\json_valueiterator.inl">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="src\Tools\Json\src\sconscript">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="src\Tools\Libcurl\curl\curlbuild.h.cmake">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </None>
+    <None Include="src\Tools\Libcurl\curl\curlbuild.h.in">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </None>
+    <None Include="src\Tools\Libcurl\curl\lib.rar">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </None>
+    <None Include="src\Tools\Libcurl\curl\Makefile.am">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </None>
+    <None Include="src\Tools\Libcurl\curl\Makefile.in">
+      <Filter>src\Tools\Libcurl\curl</Filter>
+    </None>
+    <None Include="src\Tools\Cereal\include\cereal\external\rapidxml\manual.html">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\Tools\Cereal\include\cereal\external\rapidxml\license.txt">
+      <Filter>src\Tools\Cereal\include\cereal\external\rapidxml</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# 重写规则
+RewriteRule ^api/v1/php/verify   index.php?action=verify [nc,qsa]
+RewriteRule ^api/v1/php/doaction   index.php?action=doaction [nc,qsa]
+RewriteRule ^api/v1/php/login   index.php?action=login [nc,qsa]
