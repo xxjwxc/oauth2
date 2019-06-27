@@ -11,5 +11,5 @@
 "http_port":"7001",
 "https_port":"7002",
 "register_url":"http://192.168.0.27:7021/register/api/v1",
-"db_url":"root:qwer@tcp(192.168.0.99:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local"
+"db_url":"root:qwer@tcp(127.0.0.1:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local"
 }
