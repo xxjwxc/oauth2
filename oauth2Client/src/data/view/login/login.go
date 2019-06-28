@@ -9,6 +9,7 @@ import (
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/xxjwxc/oauth2/oauth2Client/src/data/config"
 	"github.com/xxjwxc/oauth2/oauth2Client/src/data/view"
+	"github.com/xxjwxc/oauth2/oauth2Client/src/data/view/user"
 	"github.com/xxjwxc/public/message"
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/myhttp"
@@ -24,18 +25,14 @@ type Login struct {
 	通过token获取用户信息
 */
 func GetUserFromToken(token string) (username string, expire_time int, b bool) {
-	b = false
 	if len(token) == 0 {
 		return
 	}
 
 	//先从缓存中获取
-	cache := mycache.OnGetCache("oauth2")
-	var tp interface{}
-	tp, b = cache.Value(token)
+	tmp, b := user.GetCacheBody(token)
 
 	if b {
-		tmp := tp.(*view.UserCacheBody)
 		username = tmp.User_name
 		expire_time = tmp.Expire_time
 		return
@@ -51,16 +48,8 @@ func GetUserFromToken(token string) (username string, expire_time int, b bool) {
 			json.Unmarshal([]byte(r_body), &msg)
 			b = msg.State
 			if msg.State {
-				//成功
-				var tmp view.UserCacheBody
-				tmp.Access_token = token
-				tmp.User_name = msg.Data["username"]
-				tmp.Expire_time, _ = strconv.Atoi(msg.Data["expire_time"])
-
 				//保存缓存
-				cache := mycache.OnGetCache("oauth2")
-				cache.Add(tmp.Access_token, &tmp, time.Duration(tmp.Expire_time)*time.Second)
-				//------------------end
+				user.SaveCacheBody(token, msg.Data["username"], msg.Data["expire_time"])
 
 				//返回结果
 				username = tmp.User_name
