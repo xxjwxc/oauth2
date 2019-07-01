@@ -1,8 +1,6 @@
 package user
 
-import (
-	"github.com/xxjwxc/public/mysign"
-)
+import "github.com/xxjwxc/oauth2/def/mysign"
 
 type Req_user_info struct {
 	mysign.Sing_head

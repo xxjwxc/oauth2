@@ -7,11 +7,11 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/jinzhu/gorm"
+	"github.com/xxjwxc/oauth2/def/mysign"
 	"github.com/xxjwxc/oauth2/oauth2Server/src/data/config"
 	"github.com/xxjwxc/oauth2/oauth2Server/src/data/view"
 	"github.com/xxjwxc/public/message"
 	"github.com/xxjwxc/public/mylog"
-	"github.com/xxjwxc/public/mysign"
 	"github.com/xxjwxc/public/mysqldb"
 	"github.com/xxjwxc/public/tools"
 )

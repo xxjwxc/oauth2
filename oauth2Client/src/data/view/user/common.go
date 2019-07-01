@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/xxjwxc/oauth2/def"
+	"github.com/xxjwxc/oauth2/def/mysign"
 	"github.com/xxjwxc/oauth2/oauth2Client/src/data/config"
 	"github.com/xxjwxc/oauth2/oauth2Client/src/data/view"
 	"github.com/xxjwxc/public/message"
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/myhttp"
 	"github.com/xxjwxc/public/mylog"
-	"github.com/xxjwxc/public/mysign"
 )
 
 type MsgUserInfo struct {

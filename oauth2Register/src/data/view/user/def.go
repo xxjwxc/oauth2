@@ -2,7 +2,7 @@ package user
 
 import (
 	"github.com/xxjwxc/oauth2/def"
-	"github.com/xxjwxc/public/mysign"
+	"github.com/xxjwxc/oauth2/def/mysign"
 )
 
 type Req_user struct {

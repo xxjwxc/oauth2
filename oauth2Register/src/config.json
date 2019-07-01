@@ -7,7 +7,7 @@
 "token_type":"nomal",
 "http_port":"7021",
 "https_port":"7022",
-"db_url":"root:qwer@tcp(192.168.0.99:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local",
+"db_url":"root:qwer@tcp(127.0.0.1:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local",
 "mailUser":"xie1xiao1jun@126.com",
 "gbk_mail_list":"sina.com;gmail.com",
 "mailPassword":"xxj346944475!",

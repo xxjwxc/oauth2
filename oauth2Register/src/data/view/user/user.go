@@ -3,9 +3,9 @@ package user
 import (
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/xxjwxc/oauth2/def"
+	"github.com/xxjwxc/oauth2/def/mysign"
 	"github.com/xxjwxc/oauth2/oauth2Register/src/data/config"
 	"github.com/xxjwxc/public/message"
-	"github.com/xxjwxc/public/mysign"
 	"github.com/xxjwxc/public/mysqldb"
 	"github.com/xxjwxc/public/tools"
 )

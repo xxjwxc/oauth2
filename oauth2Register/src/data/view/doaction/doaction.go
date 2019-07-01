@@ -4,12 +4,12 @@ import (
 	"time"
 
 	"github.com/ant0ine/go-json-rest/rest"
+	"github.com/xxjwxc/oauth2/def/mysign"
 	"github.com/xxjwxc/oauth2/oauth2Register/src/data/config"
 	"github.com/xxjwxc/oauth2/oauth2Register/src/data/view"
 	"github.com/xxjwxc/oauth2/oauth2Register/src/data/view/user"
 	"github.com/xxjwxc/oauth2/oauth2Register/src/data/view/verify"
 	"github.com/xxjwxc/public/message"
-	"github.com/xxjwxc/public/mysign"
 	"github.com/xxjwxc/public/mysqldb"
 	"github.com/xxjwxc/public/tools"
 )

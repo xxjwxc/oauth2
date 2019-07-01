@@ -12,7 +12,7 @@ import (
 )
 
 func init() {
-	OnInit()
+	//OnInit()
 }
 
 func OnInit() {
