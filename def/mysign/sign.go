@@ -4,7 +4,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xxjwxc/oauth2/oauth2Client/src/data/config"
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/mylog"
 	"github.com/xxjwxc/public/mysqldb"
@@ -15,8 +14,22 @@ func init() {
 	//OnInit()
 }
 
+var db_url string
+
+func OnSetDbur(src string){
+	db_url = src
+}
+
+func getDbUrl()string{
+	if len(db_url) > 0{
+		return db_url
+	}
+
+	mylog.Error(error.new("db_url is not define."))
+	return ""
+}
 func OnInit() {
-	str_db := config.GetDbUrl()
+	str_db := getDbUrl()
 	//fmt.Println("dddddddddddddd:", str_db)
 	if len(str_db) > 0 {
 		orm := mysqldb.OnInitDBOrm(str_db)
@@ -43,7 +56,7 @@ func GetOne(appKey string) (sign Sign_client_tbl) {
 	if b {
 		sign = tp.(Sign_client_tbl)
 	} else {
-		str_db := config.GetDbUrl()
+		str_db := getDbUrl()
 		if len(str_db) > 0 {
 			var db mysqldb.MySqlDB
 			defer db.OnDestoryDB()
