@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xxjwxc/go-restful/data/config"
+	"github.com/xxjwxc/oauth2/oauth2Client/src/data/config"
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/mylog"
 	"github.com/xxjwxc/public/mysqldb"
