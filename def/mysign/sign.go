@@ -3,6 +3,7 @@ package mysign
 import (
 	"strings"
 	"time"
+	"errors"
 
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/mylog"
@@ -25,7 +26,7 @@ func getDbUrl()string{
 		return db_url
 	}
 
-	mylog.Error(error.new("db_url is not define."))
+	mylog.Error(errors.New("db_url is not define."))
 	return ""
 }
 func OnInit() {
