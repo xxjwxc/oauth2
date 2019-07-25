@@ -17,7 +17,7 @@ func init() {
 
 var db_url string
 
-func OnSetDbur(src string){
+func SetDburl(src string){
 	db_url = src
 }
 
