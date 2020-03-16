@@ -8,5 +8,5 @@
 "is_dev":true,
 "http_port":"7001",
 "https_port":"7002",
-"db_url":"root:qwer@tcp(127.0.0.1:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local"
+"db_url":"root:123456@tcp(127.0.0.1:3306)/oauth_db?charset=utf8&parseTime=True&loc=Local&interpolateParams=True"
 }
