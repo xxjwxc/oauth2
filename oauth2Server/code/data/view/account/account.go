@@ -24,7 +24,7 @@ type Account struct {
 }
 
 /*
-	授权
+授权
 */
 func (a *Account) Authorize(w rest.ResponseWriter, r *rest.Request) {
 	var req map[string]string
@@ -80,7 +80,7 @@ func (a *Account) Authorize(w rest.ResponseWriter, r *rest.Request) {
 }
 
 /*
-	授权
+授权
 */
 func (a *Account) AuthorizeNopwd(w rest.ResponseWriter, r *rest.Request) {
 	var req map[string]string
@@ -267,7 +267,7 @@ func newAccessRefToken(orm *gorm.DB, appid, token_type, username string, token_e
 	return
 }
 
-//密钥检测
+// 密钥检测
 func (a *Account) VerifyToken(key, token, original string) (state bool, errcode int, token_expire_time int) {
 	state = false
 	errcode = message.UnknownError
